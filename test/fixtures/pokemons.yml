@@ -1,0 +1,21 @@
+# Read about fixtures at https://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  id_pokedex: 1
+  name: MyString
+  type_01: 1
+  type_02: 1
+  evolves_from: 1
+  evolves_to: 1
+  description: MyText
+  stars: 1
+
+two:
+  id_pokedex: 1
+  name: MyString
+  type_01: 1
+  type_02: 1
+  evolves_from: 1
+  evolves_to: 1
+  description: MyText
+  stars: 1

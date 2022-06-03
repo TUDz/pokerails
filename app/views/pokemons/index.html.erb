@@ -1,0 +1,8 @@
+<h1>Pokedex</h1>
+<% if @pokemons.length > 0 %>
+  <% @pokemons.each do |p| %>>
+    <%= p.name %>
+  <% end %>
+<% else %>
+  <h1>Empty!</h1>
+<% end %>

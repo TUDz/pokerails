@@ -1,0 +1,15 @@
+<h1>Add a new pokemon</h1>
+<%= form_with model: @pokemon do |f| %>
+  <div>
+    <%= f.label :name, "Pokemon name" %>
+    <%= f.text_field :name %>
+  </div>
+  <div>
+    <%= f.label :image_url, "Image url" %>
+    <%= f.url_field :image_url %>
+  </div>
+  <div>
+    <%= f.label :type_01, "Select primary pokemon type" %>
+    <%= f.select :type_01, @pokemon_types %>
+  </div>
+<% end %>
